@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  color: var(--primary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Let's make sure the logo image is not too big */
+.logo img {
+  height: 50px; 
+  width: auto;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: var(--secondary-color);
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  min-width: 300px;
+}
+
+.search-bar button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background-color: var(--secondary-color);
+  color: #FFFFFF;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: var(--primary-color);
+}
+
+.cart a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1.5rem; /* Larger cart icon */
+}

@@ -1,0 +1,139 @@
+.cart-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.cart-page h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.empty-cart p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color);
+}
+
+.cart-items-list {
+  margin-bottom: 2rem;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 100px 3fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-bottom: 1rem;
+}
+
+.cart-item-image {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.cart-item-details h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quantity-control button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cart-item-subtotal {
+  text-align: right;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: #c00;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.cart-summary {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.cart-summary h3 {
+  align-self: flex-start;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.5rem;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.total-price {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-summary .btn-secondary {
+  background-color: #eee;
+  color: #333;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.cart-summary .btn-secondary:hover {
+  background-color: #ddd;
+}

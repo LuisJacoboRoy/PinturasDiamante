@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/cart</loc>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- Category Pages -->
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/category/vinilicas</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/category/esmaltes</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/category/impermeabilizantes</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/category/selladores</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Product Pages -->
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/product/1</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/product/2</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/product/3</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/product/4</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/product/5</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/product/6</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://pinturasdiamanteoaxaca.com/product/7</loc>
+    <priority>0.70</priority>
+  </url>
+</urlset>

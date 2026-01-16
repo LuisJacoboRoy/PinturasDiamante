@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "DIAMANTE VINILICA 7 AÑOS",
+    "image": "https://via.placeholder.com/300x300.png?text=Vinilica+7+Años",
+    "productPage": "/product/1",
+    "price": 750,
+    "category": "vinilicas",
+    "description": "Pintura vinil-acrílica de acabado mate y excelente poder cubriente, ideal para interiores y exteriores. Duración de 7 años."
+  },
+  {
+    "id": 2,
+    "name": "DIAMANTE VINILICA 5 AÑOS",
+    "image": "https://via.placeholder.com/300x300.png?text=Vinilica+5+Años",
+    "productPage": "/product/2",
+    "price": 550,
+    "category": "vinilicas",
+    "description": "Pintura vinil-acrílica de acabado mate, ideal para interiores y exteriores. Duración de 5 años."
+  },
+  {
+    "id": 3,
+    "name": "DIAMANTE VINILICA 3 AÑOS",
+    "image": "https://via.placeholder.com/300x300.png?text=Vinilica+3+Años",
+    "productPage": "/product/3",
+    "price": 350,
+    "category": "vinilicas",
+    "description": "Pintura vinil-acrílica de acabado mate, ideal para interiores. Duración de 3 años."
+  },
+  {
+    "id": 4,
+    "name": "DIAMANTE SELLADOR",
+    "image": "https://via.placeholder.com/300x300.png?text=Sellador",
+    "productPage": "/product/4",
+    "price": 250,
+    "category": "selladores",
+    "description": "Sellador vinílico transparente de excelente rendimiento y adherencia. Sella la porosidad de la superficie."
+  },
+  {
+    "id": 5,
+    "name": "DIAMANTE ESMALTE ALQUIDALICO",
+    "image": "https://via.placeholder.com/300x300.png?text=Esmalte+Alquidalico",
+    "productPage": "/product/5",
+    "price": 480,
+    "category": "esmaltes",
+    "description": "Esmalte alquidálico anticorrosivo de secado rápido y excelente adherencia sobre superficies metálicas."
+  },
+  {
+    "id": 6,
+    "name": "DIAMANTE ESMALTE ACRILICO",
+    "image": "https://via.placeholder.com/300x300.png?text=Esmalte+Acrilico",
+    "productPage": "/product/6",
+    "price": 520,
+    "category": "esmaltes",
+    "description": "Esmalte acrílico de secado extra rápido, ideal para uso industrial y comercial."
+  },
+  {
+    "id": 7,
+    "name": "DIAMANTE IMPERMEABILIZANTE",
+    "image": "https://via.placeholder.com/300x300.png?text=Impermeabilizante",
+    "productPage": "/product/7",
+    "price": 1200,
+    "category": "impermeabilizantes",
+    "description": "Impermeabilizante elastomérico con base en resinas acrílicas. Alta resistencia a los movimientos térmico-estructurales."
+  }
+]

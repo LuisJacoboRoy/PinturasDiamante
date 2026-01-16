@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #0D1B2A; /* Dark Blue */
+  --secondary-color: #415A77; /* Medium Blue-Gray */
+  --accent-color: #778DA9; /* Light Blue-Gray */
+  --bg-color: #F8F9FA; /* Off-white */
+  --text-color: #333;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 2rem;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
